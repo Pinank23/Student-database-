@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Data Management</title>
+    <link rel="stylesheet" href="student.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Student Data </h2>
+        <br><br>
+        <div class="form-group">
+            <input type="text" id="firstName" placeholder="STUDENT FIRST NAME">
+            <input type="text" id="lastName" placeholder="LAST NAME">
+            <input type="text" id="standard" placeholder="STANDARD">
+            <input type="number" id="scienceMarks" placeholder="SCIENCE MARKS">
+            <input type="number" id="mathsMarks" placeholder="MATHS MARKS">
+            <input type="number" id="bioMarks" placeholder="BIO MARKS">
+            <br><br><br><br><br>
+            <button onclick="addStudent()">ADD STUDENT</button>
+            <button onclick="viewAllStudents()">VIEW ALL STUDENT DATA</button>
+        </div>
+        </div>
+        <div class="student-data" id="studentData"></div>
+        <div class="edit-section" id="editSection" style="display:none;">
+            <input type="text" id="editFirstName" placeholder="FIRST NAME">
+            <input type="text" id="editLastName" placeholder="LAST NAME">
+            <input type="text" id="editStandard" placeholder="STANDARD">
+            <input type="number" id="editScienceMarks" placeholder="SCIENCE MARKS">
+            <input type="number" id="editMathsMarks" placeholder="MATHS MARKS">
+            <input type="number" id="editBioMarks" placeholder="BIO MARKS">
+            <button onclick="saveEdit()">SAVE</button>
+        </div>
+    </div>
+  
+
+    <script src="student.js"></script>
+</body>
+</html>

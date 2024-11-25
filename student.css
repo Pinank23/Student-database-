@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  /* Form NI Styles */
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="number"] {
+    width: 50%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-group button[type="button"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .form-group button:hover {
+    background-color: #578058;
+  }
+  
+  /* Student Data Styles */
+  
+  .student-data {
+    margin-top: 20px;
+  }
+  
+  .student-data div {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .student-data button[type="button"] {
+    float: right;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #337ab7;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .student-data button:hover {
+    background-color: #3f7eb4;
+  }
+  
+  /* Edit Section Styles */
+  
+  .edit-section {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #c73636;
+    background-color: #6d60b1;
+  }
+  
+  .edit-section input[type="text"],
+  .edit-section input[type="number"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .edit-section button[type="button"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .edit-section button[type="button"]:hover {
+    background-color: #3e8e41;
+  }
